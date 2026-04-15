@@ -1,0 +1,61 @@
+
+.conteiner-pai {
+    background-color: rgb(157, 232, 255);
+ height: 1000px;
+ display: flex;
+ flex-direction: row; 
+ justify-content: space-around; 
+ align-items: center; 
+ flex-wrap: wrap;
+ gap: 10px;   
+}
+
+.conteiner-pai > div {
+  height: 40%;
+  width: 20%;
+  border-radius: 10px;
+  border: 3px solid transparent;
+  background: 
+  linear-gradient(rgb(152, 236, 197), rgb(255, 255, 255)) padding-box, 
+  linear-gradient(45deg, rgb(0, 0, 0), rgb(222, 255, 179)) border-box;
+}
+
+div > img{
+display: flex;
+height: 40%;
+width: 75%;
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 25px;
+border-radius: 10px;
+}
+
+div > h1 {
+ text-align: center;
+ font-family: 'Flowers';
+ font-size: 95%;
+}
+
+div > p {
+ text-align: center;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+div > button {
+border-radius: 5px; 
+display: block;
+margin: 0 auto;
+background-color:rgb(0, 255, 42);
+color: rgb(0, 0, 0);
+cursor: pointer;
+font-weight: bold;
+border: 1px solid black;
+
+}
+
+@font-face {
+  font-family: 'Flowers';
+  src: url('../fonts/Flowers\ Kingdom.ttf');
+}
+
