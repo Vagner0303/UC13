@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Batalha Pokemon</title>
+    <link rel="shortcut icon" href="assets/img/favicon-16x16.png" type="image/x-icon">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Tela principal da batalha -->
+        <div class="battle-screen">
+            
+            <!-- Área do Pokémon adversário (Squirtle) -->
+            <div class="pokemon-area enemy-area">
+                <div class="pokemon-card">
+                    <div class="pokemon-name">Squirtle</div>
+                    <div class="pokemon-level">Lv. 25</div>
+                    <div class="hp-bar-container">
+                        <div class="hp-label">HP</div>
+                        <div class="hp-bar">
+                            <div class="hp-fill"></div>
+                        </div>
+                        <div class="hp-text">100/100</div>
+                    </div>
+                </div>
+                <div class="sprite-container enemy-sprite">
+                    <img class="pokemon-sprite" id="enemy-sprite" src="" alt="Squirtle">
+                </div>
+            </div>
+
+            <!-- Área do Pokémon do jogador (Charmander) -->
+            <div class="pokemon-area player-area">
+                <div class="sprite-container player-sprite">
+                    <img class="pokemon-sprite back-sprite" id="player-sprite" src="" alt="Charmander">
+                </div>
+                <div class="pokemon-card">
+                    <div class="pokemon-name">Charmander</div>
+                    <div class="pokemon-level">Lv. 25</div>
+                    <div class="hp-bar-container">
+                        <div class="hp-label">HP</div>
+                        <div class="hp-bar">
+                            <div class="hp-fill"></div>
+                        </div>
+                        <div class="hp-text">100/100</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Caixa de diálogo -->
+            <div class="dialogue-box">
+                <p class="dialogue-text">Um Squirtle selvagem apareceu! Vai, Charmander!</p>
+            </div>
+
+            <!-- Menu de golpes -->
+            <div class="moves-menu">
+                <div class="moves-grid">
+                    <button class="move-btn">Investida</button>
+                    <button class="move-btn">Brasa</button>
+                    <button class="move-btn">Aranhaverso</button>
+                    <button class="move-btn">Garra de Dragão</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
